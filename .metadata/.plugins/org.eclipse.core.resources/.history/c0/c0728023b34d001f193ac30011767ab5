@@ -1,0 +1,17 @@
+package abstraction;
+
+public class SWift extends Car{
+
+	@Override
+	void startengine() {
+		 System.out.println("The Engine Is Started");
+	}
+
+	@Override
+	void carcolour() {
+		System.out.println("The Car Colour Is Started");
+		 
+	}
+	
+
+}

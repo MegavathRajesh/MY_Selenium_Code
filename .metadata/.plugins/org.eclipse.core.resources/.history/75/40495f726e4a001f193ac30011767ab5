@@ -1,0 +1,10 @@
+package Multilevelinheritance;
+
+public class class3 extends class2{
+
+ void epmloyee4() {
+		
+		System.out.println("Iam The 4th Employee In gen");
+	}
+
+}

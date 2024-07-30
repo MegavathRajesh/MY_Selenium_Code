@@ -1,0 +1,10 @@
+package polymorphism;
+
+public class Methodoverriding2 {
+	
+	
+  void child() {
+	  
+	  System.out.println("Hai This is child method ");
+  }
+}

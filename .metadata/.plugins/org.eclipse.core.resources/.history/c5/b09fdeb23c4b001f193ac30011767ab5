@@ -1,0 +1,10 @@
+package polymorphism;
+
+public class Methodoverriding3 {
+	
+	
+  void Grandchild() {
+	  
+	  System.out.println("Hai This is parent method ");
+  }
+}

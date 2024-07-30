@@ -1,0 +1,13 @@
+package Multilevelinheritance;
+
+public class class1 {
+
+	void epmloyee() {
+		
+		System.out.println("Iam The First Employee in gen");
+	}
+  void epmloyee2() {
+		
+		System.out.println("Iam Second Employee in gen");
+	}
+}

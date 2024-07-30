@@ -1,0 +1,22 @@
+package Inheritace;
+
+public class Single_inheritance2 extends Single_inheritance {
+
+	 
+	void ram() {
+		
+		System.out.println("Hai This is Raj Mathod");
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		Single_inheritance2 in = new Single_inheritance2();
+		
+		in.raj();
+		in.ram();
+		
+	}
+	
+
+}

@@ -1,0 +1,13 @@
+package Hirerachical_inheritaence;
+
+public class class3 {
+	
+	
+	void balu() {
+			
+		System.out.println("Hai this is balu ");	 
+
+}
+	
+	
+}

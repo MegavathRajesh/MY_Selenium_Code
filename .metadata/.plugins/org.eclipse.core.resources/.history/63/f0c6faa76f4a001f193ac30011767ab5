@@ -1,0 +1,18 @@
+package Hirerachical_inheritaence;
+
+public class Employee {
+	
+	int Employeeid ;
+	String name ;
+	String location ;
+	String contactnumber ;
+	
+void EmployeeData() {
+		
+		System.out.println("The Employee id is = "+Employeeid);
+		System.out.println("The Employee name is = "+name);
+		System.out.println("The Employee location is = "+location);
+		System.out.println("The Employee Contact Number is "+contactnumber);
+	
+
+}

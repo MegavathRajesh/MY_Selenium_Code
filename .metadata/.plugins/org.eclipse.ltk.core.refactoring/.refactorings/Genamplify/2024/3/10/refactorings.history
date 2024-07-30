@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Wiatcondition.java&apos; to &apos;Genamplify/src/waitcondition&apos;&#x0D;&#x0A;- Original project: &apos;Genamplify&apos;&#x0D;&#x0A;- Destination element: &apos;Genamplify/src/waitcondition&apos;&#x0D;&#x0A;- Original element: &apos;waitcondition.Wiatcondition.java&apos;" description="Copy compilation unit" destination="/src&lt;waitcondition" element1="/src&lt;waitcondition{Wiatcondition.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1709738805393" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;swapping.java&apos; to &apos;Genamplify_practice/src/Java&apos;&#x0D;&#x0A;- Original project: &apos;Genamplify_practice&apos;&#x0D;&#x0A;- Destination element: &apos;Genamplify_practice/src/Java&apos;&#x0D;&#x0A;- Original element: &apos;Java.swapping.java&apos;" description="Copy compilation unit" destination="/src&lt;Java" element1="/src&lt;Java{swapping.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1719826026834" units="1" version="1.0"/>
+</session>

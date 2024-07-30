@@ -1,0 +1,26 @@
+package Hirerachical_inheritaence;
+
+public class class3 extends Employee {
+	
+	
+	void balu() {
+			
+		System.out.println("Hai this is balu ");	 
+
+}
+	public static void main(String[] args) {
+		System.out.println("....no Employee....");
+		Employee em = new Employee();
+		em.EmployeeData();
+		
+		System.out.println(".... Employee 1....");
+		Employee em1 = new Employee();
+		em1.Employeeid= 123232 ;
+		em1.name = "Krish";
+		em1.location = " Hyderabad ";
+		em1.contactnumber= "8739739728";
+		
+	}
+	
+	
+}

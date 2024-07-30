@@ -1,0 +1,12 @@
+package Hirerachical_inheritaence;
+
+public class Class2 {
+	
+	void Krish() {
+		
+		System.out.println("Hai This Is krish ");
+	}
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package Inheritace;
+
+public class Single_inheritance2 {
+
+	 
+	void ram() {
+		
+		System.out.println("Hai This is Raj Mathod");
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+package Hirerachical_inheritaence;
+
+public class Class2 extends Employee {
+	
+	void Krish() {
+		
+		System.out.println("The Employee id is = "+Employeeid);
+		System.out.println("The Employee name is = "+name);
+		System.out.println("The Employee location is = "+location);
+		System.out.println("The Employee Contact Number is "+contactnumber);
+	}
+	
+	
+
+}

@@ -1,0 +1,44 @@
+package irctc;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+
+import java.time.Duration;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+
+public class IRCTC {
+	
+	public static WebDriver driver;
+  @Test
+  public void applaunch() {
+	  driver.get("https://www.irctc.co.in/nget/train-search");
+	  
+	  driver.navigate().refresh();
+	  
+//	  driver.manage().deleteAllCookies();
+//	  
+	  Alert alert = driver.switchTo().alert();
+	  alert.accept();
+	  
+	  
+  }
+  @BeforeClass
+  public void beforeClass() {
+	  
+	  driver = new  ChromeDriver();
+	  driver.manage().window().maximize();
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	 
+	  
+	  
+  }
+
+  @AfterClass
+  public void afterClass() {
+  }
+
+}

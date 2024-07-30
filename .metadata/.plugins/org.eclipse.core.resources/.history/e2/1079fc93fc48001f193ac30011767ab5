@@ -1,0 +1,19 @@
+package javaPractice;
+
+public class Ifelse {
+
+	public static void main(String[] args) {
+		 int a = 10 ;
+		 
+		 if(a>20) {
+			 
+			 System.out.println("the condition will true");
+		 }
+		 else {
+			 
+			 System.out.println("the condition will false");
+		 }
+
+	}
+
+}

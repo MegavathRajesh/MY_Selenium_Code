@@ -1,0 +1,19 @@
+package Hirerachical_inheritaence;
+
+public class class3 extends Employee {
+	
+	
+	void balu() {
+			
+		System.out.println("Hai this is balu ");	 
+
+}
+	public static void main(String[] args) {
+		
+		Employee em = new Employee();
+		em.EmployeeData();
+		
+	}
+	
+	
+}

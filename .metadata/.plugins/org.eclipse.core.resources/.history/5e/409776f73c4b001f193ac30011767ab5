@@ -1,0 +1,16 @@
+package polymorphism;
+
+public class Methodoverriding3 extends Methodoverriding {
+	
+	
+  void adding() {
+	  
+	  System.out.println("Hai This is Grandchild method ");
+  }
+  
+  public static void main(String[] args) {
+	  
+	  
+	
+}
+}

@@ -1,0 +1,11 @@
+package Inheritace;
+
+public class Single_inheritance2 {
+
+	 
+	void raj() {
+		
+		System.out.println("Hai This is Raj Mathod");
+	}
+
+}

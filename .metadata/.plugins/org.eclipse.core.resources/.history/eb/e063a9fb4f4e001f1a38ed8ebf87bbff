@@ -1,0 +1,43 @@
+package abstraction;
+
+ abstract class Bike {
+	
+	private String model;
+	private int year ;
+	
+	public void Bike(String model, int year ) {
+		this. model = model;
+		this.year = year;
+		
+	}
+	abstract void startengine();
+	
+	public void display() {
+		
+		System.out.println("Model : "+model + " And Year : "+year);
+	}
+}
+
+class Jawa extends Bike{
+	
+	public void Jawa(String model, int year) {
+		
+		super.Bike(model, year);	
+	}
+
+	@Override
+	void startengine() {
+		
+		System.out.println("The Engine Started");
+		 
+	}	
+}
+
+  class Testrun1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

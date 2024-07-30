@@ -1,0 +1,25 @@
+package Encapsulation;
+
+public class Pinned {
+	private int pin ;
+	private int otp ;
+	private String name ;
+	
+	public void setpin(int outpin) {
+		
+		pin = outpin;
+	}
+	public int getpin() {
+		
+		return pin ;
+	}
+	
+	public static void main(String[] args) {
+		
+		Pinned p = new Pinned();
+		p.setpin(2233);
+		
+		System.out.println(p.getpin());
+	}
+
+}

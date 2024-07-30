@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;mypractice&apos; to &apos;Genamplify/src/officepractice&apos;&#x0D;&#x0A;- Original project: &apos;Genamplify_practice&apos;&#x0D;&#x0A;- Destination element: &apos;Genamplify/src/officepractice&apos;&#x0D;&#x0A;- Original element: &apos;Genamplify_practice/src/mypractice&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Genamplify/src&lt;officepractice" element1="/src&lt;mypractice" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1706706023733" version="1.0"/>
+</session>

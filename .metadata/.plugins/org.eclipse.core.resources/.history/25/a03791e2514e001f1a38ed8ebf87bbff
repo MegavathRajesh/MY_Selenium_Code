@@ -1,0 +1,62 @@
+package abstraction;
+
+abstract class Car {
+	
+	private String model;
+	private int year;
+	// adding a constructor method
+	public void car(String model, int year) {
+		
+		
+		
+		this.model = model;
+		this.year = year;
+		
+	}
+	
+	// adding abstraction method
+	
+	abstract void startengine();
+	
+	abstract void carcolour();
+	
+	public void display() {
+		
+		System.out.println("Model :"+model+" and Year : "+year);
+	}	
+}
+
+  class SWift extends Car{
+	
+	public SWift(String model, int year) {
+		
+		super();
+	}
+
+	@Override
+	void startengine() {
+		 System.out.println("The Engine Is Started");
+		 
+	}
+
+	@Override
+	void carcolour() {
+		System.out.println("The Car Colour Is Red");
+		
+	}
+}
+
+  class Testcar {
+	
+	public static void main(String[] args) {
+		
+		Car ar = new SWift("Maruthi", 2022);
+
+		ar.display();
+		ar.startengine();
+		ar.carcolour();
+		
+	}
+	
+	}
+
